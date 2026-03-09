@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Resume Form</h2>
+<form method="POST" enctype="multipart/form-data">
+    Name: <input type="text" name="name" required><br><br>
+    Email: <input type="email" name="email" required><br><br>
+    Phone: <input type="text" name="phone" required><br><br>
+
+    Department:
+    <select name="department">
+        <option value="CSE">CSE</option>
+        <option value="ECE">ECE</option>
+        <option value="MECH">MECH</option>
+    </select><br><br>
+
+    Qualification: <input type="text" name="qualification"><br><br>
+    Degree Certificate: <input type="file" name="certificate" required><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
